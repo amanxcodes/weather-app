@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+   
+    <img src='<%= imgUrl %>' alt="" width="200px" height="200px">
+
+    <h1><%= today %></h1>
+    <h1>
+        The Weather in <%= city %> is <%= temp %> Feels like <%= feelsLike %> 
+    </h1>
+    <h2>
+        Description : <%= description %>
+    </h2>
+    <a href="/home">Get Another Weather</a>
+    <a href="/logout" class="logout">Logout </a>   
+
+    <%- include('partials/footer') %>    
